@@ -191,7 +191,7 @@ const App: React.FC = () => {
     {
       title: 'operation',
       dataIndex: 'operation',
-      render: (_, record: { key: React.Key }) =>
+      render: (_, record) =>
         dataSource.length >= 1 ? (
           <Popconfirm
             title="Sure to delete?"
